@@ -12,3 +12,4 @@ while unprinted_designs:
 
 for completed_model in completed_models:
     print(completed_model) 
+
