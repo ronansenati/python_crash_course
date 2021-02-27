@@ -1,0 +1,38 @@
+Capitulo 4 - Trabalhando com listas
+
+Lista é escrito com colchetes[A:B].
+
+A = posicao inicial lembrando que temos a posição zero
+B = tamanho sempre iniciado do primeiro item
+
+Exemplo:
+
+unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
+
+##############################################################################
+
+Tupla é escrito com parênteses()
+
+Exemplo:
+
+make_pizza('mushrooms', 'green peppers', 'extra cheese')
+
+Tupla não permite atribuição direta de valor, exemplo:
+make_pizza[0] = "arroz" 
+TypeError: 'tuple' object does not support item assignment
+
+Tupla permite ser sobrescrita: 
+
+five_simple_foods = ('arroz','feijao','macarrao','ovo','batata_frita')
+five_simple_foods = ('tomate','pimentao','macarrao','ovo','batata_frita')
+
+##############################################################################
+
+Dicionário é escrito com chaves {}, e tem o esquema de chave/valor
+
+Exemplo:
+
+alien_0 = {'color': 'green', 'points': 5}
+
+
+
